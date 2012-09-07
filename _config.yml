@@ -1,1 +1,9 @@
 auto: true
+
+title: "Simon's Jekyll Blog"
+
+author:
+  name: Simon Goudie
+  email: simon@simongoudie.com
+  github: simongoudie
+  twitter: simongoudie

@@ -1,0 +1,22 @@
+h1 a {
+    font-family: Palatino, Georgia, serif;
+    font-variant: small-caps;
+    color: silver;
+}
+
+.byline {
+    color: black;
+    font-size: 10pt;
+    line-height: 75%;
+}
+
+.container {
+    width: 700px;
+}
+
+.copyright {
+    font-family: Palatino, Georgia, serif;
+    font-style: italic;
+    color: silver;
+    font-size: 80%;
+}

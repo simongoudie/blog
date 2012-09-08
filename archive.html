@@ -6,7 +6,7 @@ layout: base
     {% include nav.html %}
     <div id="container" class="archives">
         <div class="index">
-            <h2><em>Notebook archives</em>...</h2>
+            <h2><em>Post archives:</em></h2>
             <ul>
                 {% for post in site.posts %}
                     <li>
@@ -15,6 +15,8 @@ layout: base
                                 <span class="day">{{ post.date | date: '%d' }}</span>
                                 <span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
                                 <span class="year">{{ post.date | date: '%Y' }}</span>
+                                <span class="seperator"> - </span>
+                                <span class="title">{{ post.title }}</span>
                             </span>
                         </a>
                     </li>

@@ -7,4 +7,6 @@ layout: base
             <h2>{{ page.title }}</h2>
             <span>Published: {{ page.date | date_to_long_string}}</span>
             {{ content }}
+            {% include nextprev.html %}
         </div>
+    {% include footer.html %}

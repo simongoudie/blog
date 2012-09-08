@@ -20,3 +20,8 @@ h1 a {
     color: silver;
     font-size: 80%;
 }
+
+.right {
+    float: right;
+}
+

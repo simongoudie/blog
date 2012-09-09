@@ -1,6 +1,11 @@
 .container {
 }
 
+body {
+    border-top: 5px solid #000;
+}
+
+
 h1 a {
     font-family: Palatino, Georgia, serif;
     font-variant: small-caps;

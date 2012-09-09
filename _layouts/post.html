@@ -1,12 +1,17 @@
 ---
 layout: base
 ---
-    {% include header.html %}
-    {% include nav.html %}
-        <div class="entry-content">
-            <h2>{{ page.title }}</h2>
-            <span>Published: {{ page.date | date_to_long_string}}</span>
-            {{ content }}
-            {% include nextprev.html %}
+    <div class="row-fluid">
+        <div class="span7 offset1">
+            {% include header.html %}
         </div>
-    {% include footer.html %}
+        <div class="span5 offset5">
+            <div class="entry-content">
+                <a href="{{ page.url }}"><h2>{{ page.title }}</h2></a>
+                <h5><span>{{ page.date | date_to_long_string }}</span></h5>
+                {{ content }}
+                {% include nextprev.html %}
+            </div>
+        {% include footer.html %}
+        </div>
+    </div>

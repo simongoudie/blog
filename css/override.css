@@ -1,27 +1,43 @@
+.container {
+}
+
 h1 a {
     font-family: Palatino, Georgia, serif;
     font-variant: small-caps;
     color: silver;
 }
 
+.site-title {
+}
+
 .byline {
+    font-family: Palatino, Georgia, serif;
+    font-variant: small-caps;
     color: black;
     font-size: 10pt;
-    line-height: 75%;
 }
 
-.container {
-    width: 700px;
-}
-
-.copyright {
+.footer {
     font-family: Palatino, Georgia, serif;
     font-style: italic;
     color: silver;
     font-size: 80%;
+    padding-top: 20px;
 }
 
 .right {
     float: right;
 }
 
+.entry-content {
+}
+
+.sidebar-nav-fixed {
+    padding-top: 200px;
+    position:fixed;
+    width: auto;
+}
+
+.page-nav-bottom {
+    padding-top: 20px;
+}

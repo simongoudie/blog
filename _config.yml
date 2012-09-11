@@ -4,6 +4,8 @@ title: "Learn All The Things"
 
 permalinks: pretty
 
+exclude: deploy.sh
+
 author:
   name: Simon Goudie
   email: simon@simongoudie.com

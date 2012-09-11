@@ -1,6 +1,8 @@
-auto: true
+auto: false 
 
 title: "Learn All The Things"
+
+permalinks: pretty
 
 author:
   name: Simon Goudie

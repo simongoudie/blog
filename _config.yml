@@ -3,6 +3,7 @@ auto: false
 title: "Learn All The Things"
 
 permalinks: pretty
+pygments: true
 
 exclude: deploy.sh
 

@@ -3,23 +3,23 @@ layout: base
 title: Learn All The Things 
 ---
     <div class="row-fluid">
-        <div class="span3 offset1">
+        <div class="span4 offset1">
             {% include header.html %}
         </div>
+        <div class="span5 offset1">
+        {% for post in site.posts limit:4 %}
+            <div class="entry-content">
+                <h2 class="clear">
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </h2>
+                <h5> 
+                    <span class="date">{{ post.date | date_to_long_string }}</span>
+                </span>
+                </h5>
+                {{ post.content }}
+            </div> <!-- /.entry-content -->
+        {% endfor %}
     </div>
-    <div class="span5 offset5">
-    {% for post in site.posts limit:4 %}
-        <div class="entry-content">
-            <h2 class="clear">
-                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            </h2>
-            <h5> 
-                <span class="date">{{ post.date | date_to_long_string }}</span>
-            </span>
-            </h5>
-            {{ post.content }}
-        </div> <!-- /.entry-content -->
-    {% endfor %}
         <div class="page-nav-bottom">
             {% if post.previous %}
             <span class="page-nav-item">
@@ -32,6 +32,10 @@ title: Learn All The Things
             </span>
             {% endif %}
         </div> <!-- /.page-nav-bottom -->
-        {% include footer.html %}
+        <div class="span1">
+        </div>
+        <div class="row-fluid">
+            {% include footer.html %}
+        </div>
     </div>
     </div>

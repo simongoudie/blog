@@ -1,15 +1,24 @@
 .container {
 }
 
-body {
-    border-top: 5px solid #000;
+html {
+    height= 100%;
 }
 
+body {
+    border-top: 5px solid #000;
+    height= 100%;
+}
+
+.fill {
+    min-height: 100%;
+}
 
 h1 a {
     font-family: Palatino, Georgia, serif;
     font-variant: small-caps;
-    color: silver;
+    color: black;
+    text-shadow: #aaa 2px 2px 3px;
 }
 
 .site-title {
@@ -39,8 +48,16 @@ h1 a {
 
 .sidebar-nav-fixed {
     padding-top: 200px;
-    position:fixed;
-    width: auto;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .sidebar-nav-fixed { 
+    position: relative;
+    padding-top: 50px;
+    }
 }
 
 .page-nav-bottom {

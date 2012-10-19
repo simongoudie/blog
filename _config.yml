@@ -5,7 +5,7 @@ title: "Learn All The Things"
 permalinks: pretty
 pygments: true
 
-exclude: deploy.sh
+exclude: deploy.sh deployloc.sh
 
 author:
   name: Simon Goudie

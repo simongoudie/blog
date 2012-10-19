@@ -2,11 +2,11 @@
 layout: base
 title: Learn All The Things 
 ---
-    <div class="row-fluid">
+    <div class="row">
         <div class="span4 offset1">
             {% include header.html %}
         </div>
-        <div class="span5 offset1">
+        <div class="span6 offset1">
         {% for post in site.posts limit:4 %}
             <div class="entry-content">
                 <h2 class="clear">
@@ -34,7 +34,7 @@ title: Learn All The Things
         </div> <!-- /.page-nav-bottom -->
         <div class="span1">
         </div>
-        <div class="row-fluid">
+        <div class="row">
             {% include footer.html %}
         </div>
     </div>

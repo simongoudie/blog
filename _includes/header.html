@@ -2,15 +2,15 @@
     <div class="site-title">
         <h1>
             <span>
-                <a href="\index.html">{{ site.title }}</a>
+                <a href="{{ site.url }}\index.html">{{ site.title }}</a>
             </span>
         </h1>
         <span class="byline"><em>by {{ site.author.name }}</em></span>
     </div>
     <div class="Navigation">
         <ul class="nav nav-pills">
-             <li><a href="/index.html"><h4>Home</h4></a></li>
-             <li><a href="/archive.html"><h4>Archive</h4></a></li>
+            <li><a href="{{ site.url }}/index.html"><h4>Home</h4></a></li>
+            <li><a href="{{ site.url }}/archive.html"><h4>Archive</h4></a></li>
         </ul>
     </div>
 </div>

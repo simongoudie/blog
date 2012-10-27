@@ -7,7 +7,7 @@ layout: base
         </div>
         <div class="span8">
             <div class="entry-content">
-                <a href="{{ page.url }}"><h2>{{ page.title }}</h2></a>
+                <a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
                 <h5><span>{{ page.date | date_to_long_string }}</span></h5>
                 {{ content }}
                 {% include nextprev.html %}

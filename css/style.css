@@ -36,6 +36,11 @@ h1 a {
 }
 
 h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-variant: small-caps;
+    font-size: 24pt;
+    text-decoration: none;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -115,6 +120,8 @@ ul {
     height: 100%;
     width: 450px;
     float: right;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .page-nav-bottom {

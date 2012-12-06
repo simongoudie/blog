@@ -6,8 +6,12 @@ layout: base
 </div>
 <div class="content-window"
     <div class="entry-content">
-        <a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
-        <h5><span>{{ page.date | date_to_long_string }}</span></h5>
+        <h2>
+            <a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+        </h2>
+        <h5>
+            <span class="date">{{ page.date | date_to_long_string }}</span>
+        </h5>
         {{ content }}
         {% include nextprev.html %}
     </div>

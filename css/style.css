@@ -1,0 +1,96 @@
+
+
+
+
+
+
+#container {
+    width: 700px;
+    margin: auto;
+    height: auto !important;
+    min-height: 100%;
+    display: block;
+}
+
+#topbar {
+    width: 100%;
+    height: 5px;
+    background: #000;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1 a {
+    font-family: Palatino, Georgia, serif;
+    font-variant: small-caps;
+    color: black;
+    text-shadow: #aaa 2px 2px 3px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24pt;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 10pt;
+    color: silver;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.byline {
+    font-family: Palatino, Georgia, serif;
+    font-variant: small-caps;
+    color: black;
+    font-size: 10pt;
+}
+
+#footer {
+    font-family: Palatino, Georgia, serif;
+    font-style: italic;
+    color: silver;
+    font-size: 80%;
+    position: fixed;
+    bottom: 0px;
+    width: 200px;
+}
+
+.sidebar-nav-fixed {
+    padding-top: 200px;
+    width: 200px;
+    position: fixed;
+    text-align: left;
+}
+
+.content-window {
+    height: 100%;
+    width: 450px;
+    float: right;
+}
+
+.page-nav-bottom {
+}

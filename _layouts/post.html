@@ -1,17 +1,14 @@
 ---
 layout: base
 ---
-    <div class="row">
-        <div class="span3 offset1">
-            {% include header.html %}
-        </div>
-        <div class="span8">
-            <div class="entry-content">
-                <a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
-                <h5><span>{{ page.date | date_to_long_string }}</span></h5>
-                {{ content }}
-                {% include nextprev.html %}
-            </div>
-        {% include footer.html %}
-        </div>
+<div class="sidebar-nav-fixed">
+    {% include header.html %}
+</div>
+<div class="content-window"
+    <div class="entry-content">
+        <a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+        <h5><span>{{ page.date | date_to_long_string }}</span></h5>
+        {{ content }}
+        {% include nextprev.html %}
     </div>
+</div>

@@ -1,7 +1,4 @@
 _site/
-_import/
 _drafts/
 .DS_Store
 *.swp
-#deploy.sh
-deployloc.sh

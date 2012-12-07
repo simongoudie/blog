@@ -1,11 +1,13 @@
 auto: false 
 
+name: "Learn All The Thing"
+description: "Simon Goudie's Blog"
 title: "Learn All The Things"
 
 permalinks: pretty
 pygments: true
 
-exclude: deploy.sh deployloc.sh newpost.sh
+exclude: deployproduction.sh deploylocal.sh newpost.sh
 
 author:
   name: Simon Goudie
@@ -13,12 +15,9 @@ author:
   github: simongoudie
   twitter: simongoudie
 
-name: "Learn All The Thing"
-description: "Simon Goudie's Blog"
-#Uncomment for production:
-#url: http://simongoudie.com/blog
-#Uncomment for testing:
-#url: http://goudz.com/blog
-url: http://simon4.com/blog
-#Uncomment for local testing:
-#url: http://192.168.1.16/blog
+#Details for deploying via glynn
+ftp_host: simongoudie.com
+ftp_dir: /public_html/simongoudie/blog
+
+#URL for production
+#rl: http://simongoudie.com/blog

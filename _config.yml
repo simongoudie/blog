@@ -20,4 +20,4 @@ ftp_host: simongoudie.com
 ftp_dir: /public_html/simongoudie/blog
 
 #URL for production
-#rl: http://simongoudie.com/blog
+url: http://simongoudie.com/blog

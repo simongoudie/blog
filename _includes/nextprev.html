@@ -1,12 +1,12 @@
-<div class="page-nav-bottom">
+<div id="pagination">
     {% if page.previous.url %}
-    <span class="page-nav-item left">
-        <a rel="prev" href="{{ site.url }}{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr; View previous article</a>
+    <span class="older">
+        <a rel="prev" href="{{ site.url }}{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr; View older article</a>
     </span>
     {% endif %}
     {% if page.next.url %}
-    <span class="page-nav-item right">
-        <a rel"next" href="{{ site.url }}{{ page.next.url }}" title="View {{ page.next.title }}">View next article &rarr;</a>
+    <span class="newer">
+        <a rel"next" href="{{ site.url }}{{ page.next.url }}" title="View {{ page.next.title }}">View newer article &rarr;</a>
     </span>
     {% endif %}
-</div> <!-- /.page-nav-bottom -->
+</div>

@@ -6,6 +6,7 @@ title: "Learn All The Things"
 
 permalinks: pretty
 pygments: true
+paginate: 4
 
 exclude: deployproduction.sh deploylocal.sh newpost.sh
 

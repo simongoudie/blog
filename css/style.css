@@ -151,3 +151,26 @@ a {
 	margin: 0;
 	padding: 0;
 }
+
+#pagination {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-style: italic;
+    color: silver;
+    text-decoration: none;
+}
+
+#pagination a {
+    color: silver;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span.newer {
+    float: right;
+}
+
+#related_posts {
+   margin-top: 20px; 
+   font-family: 'Open Sans', sans-serif;
+}
+

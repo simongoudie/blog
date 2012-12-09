@@ -13,6 +13,7 @@ layout: base
             </h2>
             <ul>
                 {% for post in site.posts %}
+                {% unless post.draft %}
                     <li>
                         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
                             <span class="date">
@@ -24,6 +25,7 @@ layout: base
                             </span>
                         </a>
                     </li>
+                    {% endunless %}
                 {% endfor %}
             </ul>
         </div>

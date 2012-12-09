@@ -6,7 +6,7 @@ read TITLE
 
 TITLEF=${TITLE// /-}
 DATE=$(date +"%Y-%m-%d")
-FILENAME=~/blog/_posts/$DATE-$TITLEF.md
+FILENAME=_drafts/$DATE-$TITLEF.md
 
 touch $FILENAME
 

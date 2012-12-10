@@ -1,3 +1,5 @@
+# This code copied from Scott Parker at ssparker.com
+
 module Jekyll
   class ImageBlock < Liquid::Block
     def initialize(tag_name, filename, tokens)
@@ -39,7 +41,7 @@ module Jekyll
     end
 
     def image_url
-      "http://simon4.com/blog/img/#{@image_name}"
+      "http://simongoudie.com/blog/img/#{@image_name}"
     end
 
     def link?

@@ -11,7 +11,7 @@ elif [[ $1 = -deploys4 ]]; then
 elif [[ $HOST = RexBook ]]; then
     echo "running with jekyll.dev"
     jekyll --url http://jekyll.dev
-elif [[ $HOST = simon4 ]]; then
+elif [[ $HOST = simon4.com ]]; then
     echo "running with simon4.com/blog"
     jekyll --url http://simon4.com/blog && rm -rf ~/http/blog && mkdir ~/http/blog && cp ~/blog/_site/* ~/http/blog -R
 else

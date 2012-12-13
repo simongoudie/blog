@@ -15,11 +15,6 @@
     padding: 0px;
 }
 
-body {
-    height: 100%;
-    margin: 0px;
-}
-
 h1 {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -45,11 +40,6 @@ h2 {
     padding: 0;
 }
 
-h5 {
-    margin: 0;
-    padding: 0;
-}
-
 h2 a {
     font-family: 'Open Sans Condensed', sans-serif;
     font-variant: small-caps;
@@ -62,6 +52,9 @@ h2 a {
 
 h2 a:hover {
     text-shadow: #aaa 2px 2px 3px;	
+}
+
+h3 {
 }
 
 h4 {
@@ -78,7 +71,14 @@ h5 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 10pt;
     color: silver;
+    margin: 0;
+    padding: 0;
     font-style: italic;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
 }
 
 p {
@@ -109,22 +109,19 @@ ul {
     width: 200px;
 }
 
-.sidebar-nav-fixed {
+.sidebar {
     padding-top: 200px;
     width: 200px;
     position: fixed;
     text-align: left;
 }
 
-.content-window {
+.content {
     height: 100%;
     width: 450px;
     float: right;
     padding-top: 50px;
     padding-bottom: 100px;
-}
-
-.page-nav-bottom {
 }
 
 .nav {
@@ -169,7 +166,7 @@ span.newer {
     float: right;
 }
 
-#related_posts {
+#related-posts {
    margin-top: 20px; 
    font-family: 'Open Sans', sans-serif;
 }
@@ -180,4 +177,3 @@ span.newer {
     margin-left: auto;
     margin-right: auto;
 }
-

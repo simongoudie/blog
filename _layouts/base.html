@@ -4,11 +4,17 @@
     <head>
         <title>{{ page.title }}</title>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <meta http-equiv="content-language" content="en"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-language" content="en" />
+        <meta name="author" content="Simon Goudie" />
+        <meta name="description" content="Simon Goudie's blog, Learn All The Things" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="{{ site.url }}/css/style.css" type="text/css" />
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400italic,700italic,400,700' type='text/css' />
+        <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad3.png" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-90647-4']);
@@ -21,12 +27,12 @@
         </script>
     </head>
     <body>
-        <div id="topbar"></div>
-        <div id="container">
+        <div class="topbar"></div>
+        <div class="container">
             {{ content }}
-            <div id="footer">
+            <div class="footer">
                 {% include footer.html %}
-            </div><!-- end of footer include -->
-        </div><!-- end of container/content include -->
+            </div>
+        </div>
     </body>
 </html>

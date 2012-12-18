@@ -1,29 +1,16 @@
-#container {
-    width: 700px;
-    margin: auto;
-    height: auto !important;
-    min-height: 100%;
-    display: block;
-}
-
-#topbar {
-    width: 100%;
-    height: 5px;
-    background: #000;
-    position: fixed;
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     height: 100%;
     margin: 0px;
-}
+    font-family: 'Open Sans', sans-serif; }
+
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0; }
 
 h1 {
     margin-bottom: 0px;
-    margin-top: 0px;
-}
+    margin-top: 0px; }
 
 h1 a {
     font-family: 'Open Sans', Palatino, Georgia, serif;
@@ -32,8 +19,7 @@ h1 a {
     color: black;
     text-shadow: #aaa 2px 2px 3px;
     margin-bottom: 0px;
-    margin-top: 0px;
-}
+    margin-top: 0px; }
 
 h2 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -42,13 +28,7 @@ h2 {
     text-decoration: none;
     color: black;
     margin: 0;
-    padding: 0;
-}
-
-h5 {
-    margin: 0;
-    padding: 0;
-}
+    padding: 0; }
 
 h2 a {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -57,12 +37,10 @@ h2 a {
     text-decoration: none;
     color: black;
     margin: 0;
-    padding: 0;
-}
+    padding: 0; }
 
 h2 a:hover {
-    text-shadow: #aaa 2px 2px 3px;	
-}
+    text-shadow: #aaa 2px 2px 3px; }
 
 h4 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -71,65 +49,18 @@ h4 {
     text-decoration: none;
     color: black;
     margin: 0;
-    padding: 0;
-}
+    padding: 0; }
 
 h5 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 10pt;
     color: silver;
-    font-style: italic;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    font-style: italic; }
 
 ul {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.byline {
-    font-family: 'Open Sans', Palatino, Georgia, serif;
-    font-variant: small-caps;
-    font-style: italic;
-    color: silver;
-    font-size: 14pt;
-    margin: 0;
-    padding: 0pt;
-}
-
-#footer {
-    font-family: 'Open Sans', Palatino, Georgia, serif;
-    font-style: italic;
-    color: silver;
-    font-size: 80%;
-    position: fixed;
-    bottom: 0px;
-    width: 200px;
-}
-
-.sidebar-nav-fixed {
-    padding-top: 200px;
-    width: 200px;
-    position: fixed;
-    text-align: left;
-}
-
-.content-window {
-    height: 100%;
-    width: 450px;
-    float: right;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-.page-nav-bottom {
-}
-
-.nav {
-	text-decoration: none;
-}
+    font-family: 'Open Sans', sans-serif; }
 
 pre {
 	white-space: pre-wrap;
@@ -143,41 +74,83 @@ pre {
 	padding: 10px;
 	margin-bottom: 23px;
 	border-radius: 5px;
-	color: #363636; 
-}
+	color: #363636; }
 
-a {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-}
+span.newer {
+    float: right; }
 
-#pagination {
+.container {
+    width: 700px;
+    margin: auto;
+    height: auto !important;
+    min-height: 100%;
+    display: block; }
+
+.topbar {
+    width: 100%;
+    height: 5px;
+    background: #000;
+    position: fixed;
+    margin: 0px;
+    padding: 0px; }
+
+.byline {
+    font-family: 'Open Sans', Palatino, Georgia, serif;
+    font-variant: small-caps;
+    font-style: italic;
+    color: silver;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0pt; }
+
+.footer {
+    font-family: 'Open Sans', Palatino, Georgia, serif;
+    font-style: italic;
+    color: silver;
+    font-size: 80%;
+    position: fixed;
+    bottom: 0px;
+    width: 200px; }
+
+.sidebar {
+    padding-top: 200px;
+    width: 200px;
+    position: fixed;
+    text-align: left; }
+
+.content {
+    height: 100%;
+    width: 450px;
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 100px; }
+
+.nav {
+	text-decoration: none; }
+
+.pagination {
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     font-style: italic;
     color: silver;
-    text-decoration: none;
-}
+    text-decoration: none; }
+    .pagination a {
+        color: silver;
+        font-family: 'Open Sans', sans-serif; }
 
-#pagination a {
-    color: silver;
-    font-family: 'Open Sans', sans-serif;
-}
-
-span.newer {
-    float: right;
-}
-
-#related_posts {
+.related-posts {
    margin-top: 20px; 
-   font-family: 'Open Sans', sans-serif;
-}
+   font-family: 'Open Sans', sans-serif; }
 
 .logo img {
     display: block;
     margin-top: 20px;
     margin-left: auto;
-    margin-right: auto;
-}
+    margin-right: auto; }
 
+@media only screen and (max-width: 480px) {
+    .container {width: 300px;}
+    .content {width: 300px;}
+    .sidebar {position: static; padding-top: 50px;}
+    .footer {position: static; margin-left: auto; margin-right: auto;}
+}

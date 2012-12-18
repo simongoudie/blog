@@ -2,13 +2,13 @@
 layout: base
 title: Learn All The Things 
 ---
-<div class="sidebar-nav-fixed">
-    {% include header.html %}
+<div class="sidebar">
+    {% include sidebar.html %}
 </div>
-<div class="content-window">
+<div class="content">
     {% for post in paginator.posts %}
         {% unless post.draft %}
-            <div class="entry-content">
+            <div class="post">
                 <h2>
                     <a href="{{site.url}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                 </h2>
@@ -16,10 +16,10 @@ title: Learn All The Things
                     <span class="date">{{ post.date | date_to_long_string }}</span>
                 </h5>
                 {{ post.content }}
-            </div> <!-- /.entry-content -->
+            </div>
             {% endunless %}
     {% endfor %}
-    <div id="pagination">
+    <div class="pagination">
         {% if paginator.next_page %}
             <span class="older">
                 <a href="{{ site.url }}/page{{ paginator.next_page }}" class="olderlink">&larr; View older posts</a>

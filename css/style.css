@@ -151,6 +151,6 @@ span.newer {
 @media only screen and (max-width: 480px) {
     .container {width: 300px;}
     .content {width: 300px;}
-    .sidebar {display: none;}
+    .sidebar {position: static; padding-top: 50px;}
     .footer {position: static; margin-left: auto; margin-right: auto;}
 }

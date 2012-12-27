@@ -76,6 +76,9 @@ pre {
 	border-radius: 5px;
 	color: #363636; }
 
+img {
+    border:none; }
+
 span.newer {
     float: right; }
 

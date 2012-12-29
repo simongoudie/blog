@@ -131,6 +131,13 @@ span.newer {
     padding-top: 50px;
     padding-bottom: 100px; }
 
+.post {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: silver;
+    margin-bottom: 50px;
+    padding-bottom: 10px; }
+
 .nav {
 	text-decoration: none; }
 

@@ -13,7 +13,18 @@ layout: base
         <ul>
             {% for post in site.posts %}
             {% unless post.draft %}
-                <li>
+
+                <li class="archive_item">
+                    <h5>
+                        <span class="date">
+                            {{ post.date | date_to_long_string }}
+                        </span>
+                    </h5>
+                    <h4>
+                        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                    </h4>
+                </li>
+<!--                <li>
                     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
                         <span class="date">
                             <span class="day">{{ post.date | date: '%d' }}</span>
@@ -23,7 +34,7 @@ layout: base
                             <span class="title">{{ post.title }}</span>
                         </span>
                     </a>
-                </li>
+                </li> -->
                 {% endunless %}
             {% endfor %}
         </ul>

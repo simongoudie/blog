@@ -51,6 +51,9 @@ h4 {
     margin: 0;
     padding: 0; }
 
+h4 a {
+    color: black; }
+
 h5 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 10pt;
@@ -61,6 +64,9 @@ h5 {
 
 ul {
     font-family: 'Open Sans', sans-serif; }
+
+li {
+    display: block; }
 
 pre {
 	white-space: pre-wrap;
@@ -128,6 +134,13 @@ span.newer {
     padding-top: 50px;
     padding-bottom: 100px; }
 
+.post {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: silver;
+    margin-bottom: 50px;
+    padding-bottom: 10px; }
+
 .nav {
 	text-decoration: none; }
 
@@ -150,6 +163,9 @@ span.newer {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto; }
+
+.archive_item {
+    margin-top: 10px; }
 
 @media only screen and (max-width: 480px) {
     .container {width: 300px;}

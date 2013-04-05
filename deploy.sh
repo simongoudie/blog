@@ -14,6 +14,9 @@ elif [[ $HOST = RexBook ]]; then
 elif [[ $HOST = simon4.com ]]; then
     echo "running with simon4.com/blog"
     jekyll --url http://simon4.com/blog && rm -rf ~/http/blog && mkdir ~/http/blog && cp ~/blog/_site/* ~/http/blog -R
+elif [[ $HOST = rexpi ]]; then
+    echo "running with goudz.com/blog"
+    jekyll --url http://goudz.com/blog && rm -rf ~/http/blog && mkdir ~/http/blog/ && cp ~/blog/_site/* ~/http/blog -R
 else
     echo "Unknown machine or switch, try something else"
 fi

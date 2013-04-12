@@ -7,8 +7,9 @@ title: "Learn All The Things"
 permalinks: pretty
 pygments: true
 paginate: 4
+markdown: redcarpet
 
-exclude: deployproduction.sh deploylocal.sh newpost.sh
+exclude: deploy.sh deployproduction.sh deploylocal.sh newpost.sh
 
 author:
   name: Simon Goudie

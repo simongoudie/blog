@@ -43,6 +43,15 @@ h2 a {
 h2 a:hover {
     text-shadow: #aaa 2px 2px 3px; }
 
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-variant: small-caps;
+    font-size: 20pt;
+    text-decoration: none;
+    color: #222;
+    margin: 0;
+    padding: 0; }
+
 h4 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-variant: small-caps;

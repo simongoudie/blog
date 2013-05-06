@@ -19,5 +19,5 @@ author:
 ftp_host: simongoudie.com
 ftp_dir: /public_html/simongoudie/blog
 
-#URL for production
+#URL for production (overwritten by custom config files)
 url: http://simongoudie.com/blog

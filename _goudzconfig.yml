@@ -1,23 +1,2 @@
-name: "Learn All The Thing"
-description: "Simon Goudie's Blog"
-title: "Learn All The Things"
-
-permalinks: pretty
-pygments: true
-paginate: 4
-markdown: redcarpet
-
-exclude: [deploy.sh newpost.sh]
-
-author:
-  name: Simon Goudie
-  email: simon@simongoudie.com
-  github: simongoudie
-  twitter: simongoudie
-
-#Details for deploying via glynn
-ftp_host: simongoudie.com
-ftp_dir: /public_html/simongoudie/blog
-
 #URL for production
 url: http://goudz.com/blog

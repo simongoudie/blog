@@ -11,7 +11,7 @@ elif [[ $HOST = RexBook ]]; then
 elif [[ $HOST = simon4.com ]]; then
     echo "running with simon4.com/blog"
     jekyll build --config _config.yml,_simon4config.yml && sudo rm -rf ~/http/blog && sudo mkdir ~/http/blog && sudo cp ~/blog/_site/* ~/http/blog -R
-elif [[ $HOST = rexpi ]]; then
+elif [[ $HOST = rexrexpi ]]; then
     echo "running with goudz.com/blog"
     jekyll build --config _config,_goudzconfig.yml && sudo rm -rf ~/http/blog && sudo mkdir ~/http/blog/ && sudo cp ~/blog/_site/* ~/http/blog -R
 else

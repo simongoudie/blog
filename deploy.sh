@@ -5,9 +5,9 @@ HOST=$(hostname)
 if [[ $1 = -deploy ]]; then
     echo "running with simongoudie.com/blog and deploying"
     glynn
-elif [[ $HOST = RexBook ]]; then
+elif [[ $HOST = macair ]]; then
     echo "running with jekyll.dev"
-    jekyll build --config _config.yml,_rexbookconfig.yml
+    jekyll build --config _config.yml,_macairconfig.yml
 elif [[ $HOST = simon4.com ]]; then
     echo "running with simon4.com/blog"
     jekyll build --config _config.yml,_simon4config.yml && sudo rm -rf ~/http/blog && sudo mkdir ~/http/blog && sudo cp ~/blog/_site/* ~/http/blog -R

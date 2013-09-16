@@ -15,6 +15,8 @@ author:
   github: simongoudie
   twitter: simongoudie
 
+timezone: Australia/Melbourne
+
 #Details for deploying via glynn
 ftp_host: simongoudie.com
 ftp_dir: /public_html/simongoudie/blog

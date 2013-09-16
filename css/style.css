@@ -153,6 +153,8 @@ span.newer {
     border-bottom-color: silver;
     margin-bottom: 50px;
     padding-bottom: 10px; }
+    .post li {
+        margin: 0 0 5px 0; }
 
 .nav {
 	text-decoration: none; }
@@ -185,5 +187,4 @@ span.newer {
     .content {width: 300px;}
     .sidebar {position: static; padding-top: 50px;}
     .footer {position: static; margin-left: auto; margin-right: auto;}
-    .post img {width: 300px;}
-}
+    .post img {width: 300px;} }

@@ -12,7 +12,6 @@ touch $FILENAME
 
 echo "---" >> $FILENAME
 echo "layout: post" >> $FILENAME
-echo "draft: true" >> $FILENAME
 echo "title: $TITLE" >> $FILENAME
 echo "---" >> $FILENAME
 echo "" >> $FILENAME
